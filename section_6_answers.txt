@@ -1,0 +1,36 @@
+Section 6 - Advanced Questions Answers
+=======================================
+
+Q1: Which emission sources have highest variability?
+-----------------------------------------------------
+Total_Energy_Consumption_kWh has the highest variability, followed by
+NonRenewable_Energy_Consumption_kWh and Strategy_Implementation_Cost_USD.
+This is shown by their high standard deviation values compared to other variables.
+
+
+Q2: Are emissions normally distributed?
+----------------------------------------
+No, the emissions are NOT normally distributed. The normaltest returned a
+p-value less than 0.05, which means we reject the null hypothesis of normality.
+The distribution is slightly skewed.
+
+
+Q3: Which variables are strongly correlated with emissions?
+------------------------------------------------------------
+Total_Energy_Consumption_kWh and NonRenewable_Energy_Consumption_kWh show
+the strongest correlation with Carbon_Emission_tCO2e_TARGET.
+Energy_Cost_USD and Raw_Material_Usage_kg also show moderate positive correlation.
+
+
+Q4: Is there a trend in emissions?
+------------------------------------
+Yes, there is a slight increasing trend in carbon emissions over time.
+The linear slope calculated from the monthly average emissions is positive,
+indicating emissions are gradually rising across the observed period.
+
+
+Q5: Do seasonal patterns exist?
+---------------------------------
+Yes, seasonal patterns exist. Some months show higher average emissions than others.
+Mid-year months tend to have slightly higher emissions, which may be related to
+increased industrial activity and energy consumption during those periods.
