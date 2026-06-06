@@ -1,5 +1,4 @@
 Section 6 - Advanced Questions Answers
-=======================================
 
 Q1: Which emission sources have highest variability?
 -----------------------------------------------------
